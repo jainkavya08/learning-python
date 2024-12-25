@@ -1,16 +1,19 @@
-def main ():
+# Define the main function that will execute the main logic of the program
+def main():
+    # Prompt the user for their name and store the input in the variable 'name'
+    name = input("What's your name ? ")
 
-    # Output using our own function
-    name = input ("What's your name ? ")
-    hello (name)
+    # Call the 'hello' function, passing the user's name as an argument
+    hello(name)
 
-    # Output without passing the expected arguments
+    # Call the 'hello' function without any arguments, which will use the default value "world"
     hello()
 
+# Define the 'hello' function that takes one optional parameter 'to'
+# If no argument is provided, 'to' defaults to "world"
+def hello(to="world"):
+    # Print a greeting message that includes the name passed to the function
+    print("Hello,", to)
 
-# Create our own function
-def hello (to = "world"):
-    print ("hello ,",to)
-
-# Without this there will be no output 
-main ()
+# Call the main function to start the program
+main()

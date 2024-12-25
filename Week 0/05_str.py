@@ -1,8 +1,9 @@
-# Ask the user for their name
-name = input("What's your name? ").strip().title()
+#Ask the user for input
+name = input("What's your name ? ").strip().title()   #strip --> eliminates whitespace #title --> Captilizes
 
-# If only you want to greet the person with their first name its good to use split
-first , last = name.split (" ")
+#If only you want to green the user with their first of last name then use split
+first , last = name.split(" ")
 
-# Print the output
-print(f"hello, {first}")
+#Print the output
+print (f"Hello,{first}")
+

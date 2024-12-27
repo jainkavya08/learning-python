@@ -6,7 +6,7 @@ name = input ("What's your name ? ")
 print ("Hello,", end = "")
 print (name)
 
-################ Step 2 
+################ type 2
 
 name = input ("what's your name ? ")
 #changing the sep

@@ -1,9 +1,3 @@
-def greet (input):
-    if "hello" in input:
-        return ("Hello , There ")
-    else:
-        return ("Sorry i dont know you ")
+indoor = input("MAKE YOUR SENTENCE IN lowercase :" ).lower()
 
-
-greetings = greet("hello")
-print ("mhm, " + greetings)
+print (indoor)

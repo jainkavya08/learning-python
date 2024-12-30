@@ -1,9 +1,5 @@
-def convert(input):
-    return input.replace(":)" , "🙂").replace(":(" , "🙁")
+x = int(input("Enter x : "))
+y = int(input("Enter y : "))
 
-def main():
-    faces = input ("Enter your text : ")
-    result = convert(faces)
-    print(result)
+print (f"sum : {x + y}")
 
-main()

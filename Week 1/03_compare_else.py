@@ -11,6 +11,3 @@ elif x > y:
     print ("x is greater than y")
 else:
     print ("x equals y ")
-
-
-    
